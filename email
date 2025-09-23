@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Your Admin Subscription Plan</title>
+  <style>
+    @media only screen and (max-width: 600px) {
+      .plan-column { display: block !important; width: 100% !important; }
+      .plan-table { width: 100% !important; }
+      .tab-nav td { display: block !important; width: 100% !important; text-align: center !important; }
+      .tab-nav a { margin: 5px 0 !important; width: 100% !important; }
+    }
+  </style>
+</head>
+<body style="margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif; background-color: #f5f5f5; color: #333333;">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #f5f5f5; padding: 20px;">
+    <tr>
+      <td align="center">
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+          <!-- Header -->
+          <tr>
+            <td align="center" style="padding: 20px; background-color: #fff9c4;">
+              <img src="https://via.placeholder.com/150x50?text=Your+Logo" alt="Company Logo" style="max-width: 150px; display: block; margin: 0 auto 10px;">
+              <h1 style="font-size: 24px; font-weight: 700; color: #333333; margin: 0 0 10px;">🎯 Choose Your Admin Subscription Plan</h1>
+              <p style="font-size: 16px; color: #666666; font-weight: 400; margin: 0 0 15px;">Scale your network growth with a plan that suits your business best.</p>
+              <p style="font-size: 14px; color: #333333; font-weight: 400; margin: 0 0 5px;">Dear Admin,</p>
+              <p style="font-size: 14px; color: #333333; font-weight: 400; margin: 0;">We’re excited to offer you a flexible range of plans to help you streamline your operations and grow faster. Please explore the available options below and click on the respective button to activate your subscription instantly.</p>
+            </td>
+          </tr>
+
+          <!-- Plan Selection Links -->
+          <tr>
+            <td align="center" style="padding: 20px;">
+              <table cellpadding="0" cellspacing="0" border="0" class="tab-nav" style="background-color: #f9f9f9; border-radius: 20px; padding: 8px; border: 1px solid #e0e0e0;">
+                <tr>
+                  <td style="padding: 8px;">
+                    <a href="#yearly" style="display: inline-block; background-color: #ffc107; color: #333333; padding: 10px 20px; border-radius: 15px; font-size: 14px; font-weight: 600; text-decoration: none;">Annually <span style="background-color: #f57f17; color: #ffffff; font-size: 10px; padding: 2px 6px; border-radius: 8px; margin-left: 5px;">Best Value</span></a>
+                  </td>
+                  <td style="padding: 8px;">
+                    <a href="#monthly" style="display: inline-block; background-color: #ffffff; color: #333333; padding: 10px 20px; border-radius: 15px; font-size: 14px; font-weight: 600; text-decoration: none; border: 1px solid #f57f17;">Monthly</a>
+                  </td>
+                  <td style="padding: 8px;">
+                    <a href="#quarterly" style="display: inline-block; background-color: #ffffff; color: #333333; padding: 10px 20px; border-radius: 15px; font-size: 14px; font-weight: 600; text-decoration: none; border: 1px solid #f57f17;">Quarterly</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Monthly Plans -->
+          <tr>
+            <td style="padding: 20px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="center" style="padding-bottom: 15px;">
+                    <h2 style="font-size: 18px; font-weight: 600; color: #f57f17;">Monthly Plans</h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" class="plan-table">
+                      <tr>
+                        <!-- Basic Plan -->
+                        <td class="plan-column" style="width: 33.33%; padding: 10px; vertical-align: top;">
+                          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; border-radius: 8px; border: 1px solid #e0e0e0; padding: 15px;">
+                            <tr>
+                              <td align="center">
+                                <h3 style="font-size: 16px; font-weight: 700; color: #f57f17; margin-bottom: 8px;">Basic</h3>
+                                <div style="display: flex; align-items: baseline; justify-content: center; gap: 4px; margin-bottom: 8px;">
+                                  <span style="font-size: 12px; font-weight: 600; color: #ff9800;">₹</span>
+                                  <span style="font-size: 20px; font-weight: 800; color: #f57f17;">5K</span>
+                                  <span style="font-size: 12px; color: #ff9800; font-weight: 500;">/month</span>
+                                </div>
+                                <p style="color: #666666; font-size: 13px; margin-bottom: 8px;">Single provider for each product</p>
+                                <div style="margin-bottom: 10px;">
+                                  <span style="display: inline-block; font-weight: 700; font-size: 12px; color: #333333; background-color: #fff9c4; padding: 5px 10px; border-radius: 12px; border: 1px solid #ffc107;">Essential</span>
+                                  <p style="color: #888888; font-size: 11px; font-weight: 500;">Core network features</p>
+                                </div>
+                                <div style="margin-bottom: 10px;">
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Unlimited channel expansion</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Branded network launch tools</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Earnings tracking dashboard</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> 3-month data access</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Regulation-compliant platform updates</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Pricing and commission management</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Customer care manager support</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Free training sessions</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> GST invoicing (Admin & Network)</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Device support RM (Admin)</p>
+                                </div>
+                                <a href="#" style="display: inline-block; width: 100%; background-color: #ffc107; color: #333333; padding: 12px; border-radius: 8px; font-size: 13px; font-weight: 700; text-decoration: none; text-transform: uppercase; text-align: center;">Get Started</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <!-- Standard Plan -->
+                        <td class="plan-column" style="width: 33.33%; padding: 10px; vertical-align: top;">
+                          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #fff9c4; border-radius: 8px; border: 1px solid #ffc107; padding: 15px; position: relative;">
+                            <tr>
+                              <td align="center">
+                                <span style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); background-color: #ffc107; padding: 6px 12px; font-size: 11px; font-weight: 700; color: #333333; border-radius: 0 0 10px 10px; min-width: 100px;">Most Popular</span>
+                                <h3 style="font-size: 16px; font-weight: 700; color: #f57f17; margin-bottom: 8px; margin-top: 15px;">Standard</h3>
+                                <div style="display: flex; align-items: baseline; justify-content: center; gap: 4px; margin-bottom: 8px;">
+                                  <span style="font-size: 12px; font-weight: 600; color: #ff9800;">₹</span>
+                                  <span style="font-size: 20px; font-weight: 800; color: #f57f17;">15K</span>
+                                  <span style="font-size: 12px; color: #ff9800; font-weight: 500;">/month</span>
+                                </div>
+                                <p style="color: #666666; font-size: 13px; margin-bottom: 8px;">2 providers for multiple products</p>
+                                <div style="margin-bottom: 10px;">
+                                  <span style="display: inline-block; font-weight: 700; font-size: 12px; color: #333333; background-color: #fff9c4; padding: 5px 10px; border-radius: 12px; border: 1px solid #ffc107;">Professional</span>
+                                  <p style="color: #888888; font-size: 11px; font-weight: 500;">Enhanced business features</p>
+                                </div>
+                                <div style="margin-bottom: 10px;">
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Everything in Basic</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Extended earnings tracking dashboard</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Admin Eloka ticketing service</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Network Eloka ticketing service</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Branded mobile app</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Option of online deposit for admin</p>
+                                </div>
+                                <a href="#" style="display: inline-block; width: 100%; background-color: #ffc107; color: #333333; padding: 12px; border-radius: 8px; font-size: 13px; font-weight: 700; text-decoration: none; text-transform: uppercase; text-align: center;">Get Started</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <!-- Premium Plan -->
+                        <td class="plan-column" style="width: 33.33%; padding: 10px; vertical-align: top;">
+                          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #fff3e0; border-radius: 8px; border: 1px solid #ff9800; padding: 15px;">
+                            <tr>
+                              <td align="center">
+                                <h3 style="font-size: 16px; font-weight: 700; color: #f57f17; margin-bottom: 8px;">Premium</h3>
+                                <div style="display: flex; align-items: baseline; justify-content: center; gap: 4px; margin-bottom: 8px;">
+                                  <span style="font-size: 12px; font-weight: 600; color: #ff9800;">₹</span>
+                                  <span style="font-size: 20px; font-weight: 800; color: #f57f17;">25K</span>
+                                  <span style="font-size: 12px; color: #ff9800; font-weight: 500;">/month</span>
+                                </div>
+                                <p style="color: #666666; font-size: 13px; margin-bottom: 8px;">2 or more providers for multiple products</p>
+                                <div style="margin-bottom: 10px;">
+                                  <span style="display: inline-block; font-weight: 7
+00; font-size: 12px; color: #333333; background-color: #fff9c4; padding: 5px 10px; border-radius: 12px; border: 1px solid #ffc107;">Enterprise</span>
+                                  <p style="color: #888888; font-size: 11px; font-weight: 500;">Complete business solution</p>
+                                </div>
+                                <div style="margin-bottom: 10px;">
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Everything in Standard</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Tax advisory relationship manager</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Onboarding support RM</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Dedicated Admin/network manager</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Monthly product training (3 sessions)</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Fund-in dedicated bank account</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Fund-in/out dedicated bank accounts</p>
+                                </div>
+                                <a href="#" style="display: inline-block; width: 100%; background-color: #ffc107; color: #333333; padding: 12px; border-radius: 8px; font-size: 13px; font-weight: 700; text-decoration: none; text-transform: uppercase; text-align: center;">Get Started</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Quarterly Plans -->
+          <tr>
+            <td style="padding: 20px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="center" style="padding-bottom: 15px;">
+                    <h2 style="font-size: 18px; font-weight: 600; color: #f57f17;">Quarterly Plans</h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" class="plan-table">
+                      <tr>
+                        <!-- Basic Plan -->
+                        <td class="plan-column" style="width: 33.33%; padding: 10px; vertical-align: top;">
+                          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; border-radius: 8px; border: 1px solid #e0e0e0; padding: 15px; position: relative;">
+                            <tr>
+                              <td align="center">
+                                <span style="position: absolute; top: 10px; right: 10px; background-color: #ff9800; color: #ffffff; padding: 5px 8px; border-radius: 10px; font-size: 11px; font-weight: 700;">Save 10%</span>
+                                <h3 style="font-size: 16px; font-weight: 700; color: #f57f17; margin-bottom: 8px;">Basic</h3>
+                                <div style="display: flex; align-items: baseline; justify-content: center; gap: 4px; margin-bottom: 8px;">
+                                  <span style="font-size: 12px; font-weight: 600; color: #ff9800;">₹</span>
+                                  <span style="font-size: 20px; font-weight: 800; color: #f57f17;">13.5K</span>
+                                  <span style="font-size: 12px; color: #ff9800; font-weight: 500;">/quarter</span>
+                                </div>
+                                <p style="color: #666666; font-size: 13px; margin-bottom: 8px;">Single provider for each product</p>
+                                <div style="margin-bottom: 10px;">
+                                  <span style="display: inline-block; font-weight: 700; font-size: 12px; color: #333333; background-color: #fff9c4; padding: 5px 10px; border-radius: 12px; border: 1px solid #ffc107;">Essential</span>
+                                  <p style="color: #888888; font-size: 11px; font-weight: 500;">Core network features</p>
+                                </div>
+                                <div style="margin-bottom: 10px;">
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Unlimited channel expansion</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Branded network launch tools</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Earnings tracking dashboard</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> 3-month data access</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Regulation-compliant platform updates</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Pricing and commission management</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Customer care manager support</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Free training sessions</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> GST invoicing (Admin & Network)</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Device support RM (Admin)</p>
+                                </div>
+                                <a href="#" style="display: inline-block; width: 100%; background-color: #ffc107; color: #333333; padding: 12px; border-radius: 8px; font-size: 13px; font-weight: 700; text-decoration: none; text-transform: uppercase; text-align: center;">Get Started</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <!-- Standard Plan -->
+                        <td class="plan-column" style="width: 33.33%; padding: 10px; vertical-align: top;">
+                          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #fff9c4; border-radius: 8px; border: 1px solid #ffc107; padding: 15px; position: relative;">
+                            <tr>
+                              <td align="center">
+                                <span style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); background-color: #ffc107; padding: 6px 12px; font-size: 11px; font-weight: 700; color: #333333; border-radius: 0 0 10px 10px; min-width: 100px;">Most Popular</span>
+                                <span style="position: absolute; top: 10px; right: 10px; background-color: #ff9800; color: #ffffff; padding: 5px 8px; border-radius: 10px; font-size: 11px; font-weight: 700;">Save 10%</span>
+                                <h3 style="font-size: 16px; font-weight: 700; color: #f57f17; margin-bottom: 8px; margin-top: 15px;">Standard</h3>
+                                <div style="display: flex; align-items: baseline; justify-content: center; gap: 4px; margin-bottom: 8px;">
+                                  <span style="font-size: 12px; font-weight: 600; color: #ff9800;">₹</span>
+                                  <span style="font-size: 20px; font-weight: 800; color: #f57f17;">40.5K</span>
+                                  <span style="font-size: 12px; color: #ff9800; font-weight: 500;">/quarter</span>
+                                </div>
+                                <p style="color: #666666; font-size: 13px; margin-bottom: 8px;">2 providers for multiple products</p>
+                                <div style="margin-bottom: 10px;">
+                                  <span style="display: inline-block; font-weight: 700; font-size: 12px; color: #333333; background-color: #fff9c4; padding: 5px 10px; border-radius: 12px; border: 1px solid #ffc107;">Professional</span>
+                                  <p style="color: #888888; font-size: 11px; font-weight: 500;">Enhanced business features</p>
+                                </div>
+                                <div style="margin-bottom: 10px;">
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Everything in Basic</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Extended earnings tracking dashboard</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Admin Eloka ticketing service</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Network Eloka ticketing service</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Branded mobile app</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Option of online deposit for admin</p>
+                                </div>
+                                <a href="#" style="display: inline-block; width: 100%; background-color: #ffc107; color: #333333; padding: 12px; border-radius: 8px; font-size: 13px; font-weight: 700; text-decoration: none; text-transform: uppercase; text-align: center;">Get Started</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <!-- Premium Plan -->
+                        <td class="plan-column" style="width: 33.33%; padding: 10px; vertical-align: top;">
+                          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #fff3e0; border-radius: 8px; border: 1px solid #ff9800; padding: 15px; position: relative;">
+                            <tr>
+                              <td align="center">
+                                <span style="position: absolute; top: 10px; right: 10px; background-color: #ff9800; color: #ffffff; padding: 5px 8px; border-radius: 10px; font-size: 11px; font-weight: 700;">Save 10%</span>
+                                <h3 style="font-size: 16px; font-weight: 700; color: #f57f17; margin-bottom: 8px;">Premium</h3>
+                                <div style="display: flex; align-items: baseline; justify-content: center; gap: 4px; margin-bottom: 8px;">
+                                  <span style="font-size: 12px; font-weight: 600; color: #ff9800;">₹</span>
+                                  <span style="font-size: 20px; font-weight: 800; color: #f57f17;">67.5K</span>
+                                  <span style="font-size: 12px; color: #ff9800; font-weight: 500;">/quarter</span>
+                                </div>
+                                <p style="color: #666666; font-size: 13px; margin-bottom: 8px;">2 or more providers for multiple products</p>
+                                <div style="margin-bottom: 10px;">
+                                  <span style="display: inline-block; font-weight: 700; font-size: 12px; color: #333333; background-color: #fff9c4; padding: 5px 10px; border-radius: 12px; border: 1px solid #ffc107;">Enterprise</span>
+                                  <p style="color: #888888; font-size: 11px; font-weight: 500;">Complete business solution</p>
+                                </div>
+                                <div style="margin-bottom: 10px;">
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Everything in Standard</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Tax advisory relationship manager</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Onboarding support RM</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Dedicated Admin/network manager</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Monthly product training (3 sessions)</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Fund-in dedicated bank account</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Fund-in/out dedicated bank accounts</p>
+                                </div>
+                                <a href="#" style="display: inline-block; width: 100%; background-color: #ffc107; color: #333333; padding: 12px; border-radius: 8px; font-size: 13px; font-weight: 700; text-decoration: none; text-transform: uppercase; text-align: center;">Get Started</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Yearly Plans -->
+          <tr>
+            <td style="padding: 20px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td align="center" style="padding-bottom: 15px;">
+                    <h2 style="font-size: 18px; font-weight: 600; color: #f57f17;">Yearly Plans</h2>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" class="plan-table">
+                      <tr>
+                        <!-- Basic Plan -->
+                        <td class="plan-column" style="width: 33.33%; padding: 10px; vertical-align: top;">
+                          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; border-radius: 8px; border: 1px solid #e0e0e0; padding: 15px; position: relative;">
+                            <tr>
+                              <td align="center">
+                                <span style="position: absolute; top: 10px; right: 10px; background-color: #ff9800; color: #ffffff; padding: 5px 8px; border-radius: 10px; font-size: 11px; font-weight: 700;">Save 17%</span>
+                                <h3 style="font-size: 16px; font-weight: 700; color: #f57f17; margin-bottom: 8px;">Basic</h3>
+                                <div style="display: flex; align-items: baseline; justify-content: center; gap: 4px; margin-bottom: 8px;">
+                                  <span style="font-size: 12px; font-weight: 600; color: #ff9800;">₹</span>
+                                  <span style="font-size: 20px; font-weight: 800; color: #f57f17;">50K</span>
+                                  <span style="font-size: 12px; color: #ff9800; font-weight: 500;">/year</span>
+                                </div>
+                                <p style="color: #666666; font-size: 13px; margin-bottom: 8px;">Single provider for each product</p>
+                                <div style="margin-bottom: 10px;">
+                                  <span style="display: inline-block; font-weight: 700; font-size: 12px; color: #333333; background-color: #fff9c4; padding: 5px 10px; border-radius: 12px; border: 1px solid #ffc107;">Essential</span>
+                                  <p style="color: #888888; font-size: 11px; font-weight: 500;">Core network features</p>
+                                </div>
+                                <div style="margin-bottom: 10px;">
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Unlimited channel expansion</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Branded network launch tools</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Earnings tracking dashboard</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> 3-month data access</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Regulation-compliant platform updates</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Pricing and commission management</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Customer care manager support</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Free training sessions</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> GST invoicing (Admin & Network)</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Device support RM (Admin)</p>
+                                </div>
+                                <a href="#" style="display: inline-block; width: 100%; background-color: #ffc107; color: #333333; padding: 12px; border-radius: 8px; font-size: 13px; font-weight: 700; text-decoration: none; text-transform: uppercase; text-align: center;">Get Started</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <!-- Standard Plan -->
+                        <td class="plan-column" style="width: 33.33%; padding: 10px; vertical-align: top;">
+                          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #fff9c4; border-radius: 8px; border: 1px solid #ffc107; padding: 15px; position: relative;">
+                            <tr>
+                              <td align="center">
+                                <span style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); background-color: #ffc107; padding: 6px 12px; font-size: 11px; font-weight: 700; color: #333333; border-radius: 0 0 10px 10px; min-width: 100px;">Most Popular</span>
+                                <span style="position: absolute; top: 10px; right: 10px; background-color: #ff9800; color: #ffffff; padding: 5px 8px; border-radius: 10px; font-size: 11px; font-weight: 700;">Save 17%</span>
+                                <h3 style="font-size: 16px; font-weight: 700; color: #f57f17; margin-bottom: 8px; margin-top: 15px;">Standard</h3>
+                                <div style="display: flex; align-items: baseline; justify-content: center; gap: 4px; margin-bottom: 8px;">
+                                  <span style="font-size: 12px; font-weight: 600; color: #ff9800;">₹</span>
+                                  <span style="font-size: 20px; font-weight: 800; color: #f57f17;">150K</span>
+                                  <span style="font-size: 12px; color: #ff9800; font-weight: 500;">/year</span>
+                                </div>
+                                <p style="color: #666666; font-size: 13px; margin-bottom: 8px;">2 providers for multiple products</p>
+                                <div style="margin-bottom: 10px;">
+                                  <span style="display: inline-block; font-weight: 700; font-size: 12px; color: #333333; background-color: #fff9c4; padding: 5px 10px; border-radius: 12px; border: 1px solid #ffc107;">Professional</span>
+                                  <p style="color: #888888; font-size: 11px; font-weight: 500;">Enhanced business features</p>
+                                </div>
+                                <div style="margin-bottom: 10px;">
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Everything in Basic</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Extended earnings tracking dashboard</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Admin Eloka ticketing service</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Network Eloka ticketing service</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Branded mobile app</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Option of online deposit for admin</p>
+                                </div>
+                                <a href="#" style="display: inline-block; width: 100%; background-color: #ffc107; color: #333333; padding: 12px; border-radius: 8px; font-size: 13px; font-weight: 700; text-decoration: none; text-transform: uppercase; text-align: center;">Get Started</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                        <!-- Premium Plan -->
+                        <td class="plan-column" style="width: 33.33%; padding: 10px; vertical-align: top;">
+                          <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #fff3e0; border-radius: 8px; border: 1px solid #ff9800; padding: 15px; position: relative;">
+                            <tr>
+                              <td align="center">
+                                <span style="position: absolute; top: 10px; right: 10px; background-color: #ff9800; color: #ffffff; padding: 5px 8px; border-radius: 10px; font-size: 11px; font-weight: 700;">Save 17%</span>
+                                <h3 style="font-size: 16px; font-weight: 700; color: #f57f17; margin-bottom: 8px;">Premium</h3>
+                                <div style="display: flex; align-items: baseline; justify-content: center; gap: 4px; margin-bottom: 8px;">
+                                  <span style="font-size: 12px; font-weight: 600; color: #ff9800;">₹</span>
+                                  <span style="font-size: 20px; font-weight: 800; color: #f57f17;">250K</span>
+                                  <span style="font-size: 12px; color: #ff9800; font-weight: 500;">/year</span>
+                                </div>
+                                <p style="color: #666666; font-size: 13px; margin-bottom: 8px;">2 or more providers for multiple products</p>
+                                <div style="margin-bottom: 10px;">
+                                  <span style="display: inline-block; font-weight: 700; font-size: 12px; color: #333333; background-color: #fff9c4; padding: 5px 10px; border-radius: 12px; border: 1px solid #ffc107;">Enterprise</span>
+                                  <p style="color: #888888; font-size: 11px; font-weight: 500;">Complete business solution</p>
+                                </div>
+                                <div style="margin-bottom: 10px;">
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Everything in Standard</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Tax advisory relationship manager</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Onboarding support RM</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Dedicated Admin/network manager</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Monthly product training (3 sessions)</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Fund-in dedicated bank account</p>
+                                  <p style="font-size: 11px; color: #555555; line-height: 1.4; margin-bottom: 6px;"><span style="color: #f57f17; font-weight: bold; margin-right: 4px;">✓</span> Fund-in/out dedicated bank accounts</p>
+                                </div>
+                                <a href="#" style="display: inline-block; width: 100%; background-color: #ffc107; color: #333333; padding: 12px; border-radius: 8px; font-size: 13px; font-weight: 700; text-decoration: none; text-transform: uppercase; text-align: center;">Get Started</a>
+                              </td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td align="center" style="padding: 20px; border-top: 1px solid #e0e0e0; background-color: #f9f9f9;">
+              <p style="color: #333333; font-size: 13px; font-weight: 500; margin-bottom: 8px;">💡 <strong style="color: #f57f17; font-weight: 700;">Note:</strong> All subscription amounts are exclusive of GST.</p>
+              <p style="color: #333333; font-size: 13px; font-weight: 500; margin-bottom: 8px;">Need help choosing? <a href="mailto:support@example.com" style="color: #f57f17; text-decoration: none; font-weight: 600;">Contact your relationship manager</a> for assistance.</p>
+              <!-- Signature -->
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top: 20px;">
+                <tr>
+                  <td align="center">
+                    <p style="color: #333333; font-size: 13px; font-weight: 500; margin-bottom: 5px;">Best regards,</p>
+                    <p style="color: #333333; font-size: 13px; font-weight: 600; margin-bottom: 5px;">Amit Sharma</p>
+                    <p style="color: #666666; font-size: 12px; font-weight: 400; margin-bottom: 5px;">Customer Success Manager</p>
+                    <p style="color: #666666; font-size: 12px; font-weight: 400; margin-bottom: 5px;">Your Company Name</p>
+                    <p style="color: #666666; font-size: 12px; font-weight: 400; margin-bottom: 5px;"><a href="mailto:support@example.com" style="color: #f57f17; text-decoration: none;">support@example.com</a> | <a href="https://www.example.com" style="color: #f57f17; text-decoration: none;">www.example.com</a></p>
+                  </td>
+                </tr>
+              </table>
+              <p style="color: #666666; font-size: 12px; margin-top: 20px;">© 2025 Your Company Name. All rights reserved.</p>
+              <p style="color: #666666; font-size: 12px;"><a href="#" style="color: #f57f17; text-decoration: none;">Unsubscribe</a> | <a href="#" style="color: #f57f17; text-decoration: none;">Privacy Policy</a></p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
